@@ -1,9 +1,4 @@
 import React from "react";
-import mock01 from '../assets/images/mock01.png';
-import mock02 from '../assets/images/mock02.png';
-import mock03 from '../assets/images/mock03.png';
-import mock04 from '../assets/images/mock04.png';
-import mock05 from '../assets/images/mock05.png';
 import mock06 from '../assets/images/mock06.png';
 import mock07 from '../assets/images/mock07.png';
 import mock08 from '../assets/images/mock08.png';
@@ -17,54 +12,29 @@ function Project() {
         <h1>Personal Projects</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>Filmate AI</h2></a>
-                <p>Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.</p>
+                <a href="https://github.com/chenbytes/flexicaptcha" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="flexiCAPTCHA placeholder thumbnail" width="100%"/></a>
+                <a href="https://github.com/chenbytes/flexicaptcha" target="_blank" rel="noreferrer"><h2>FlexiCAPTCHA</h2></a>
+                <p><strong>FlexiCAPTCHA</strong> is an adaptive authentication security system for WordPress that uses behavioral analysis and machine learning to distinguish legitimate users from automated login attempts. It dynamically adjusts verification based on risk level, reducing friction for real users while improving protection against bots. The project uses <strong>WordPress</strong>, <strong>PHP</strong>, <strong>Python</strong>, <strong>Flask</strong>, and a <strong>Random Forest classifier</strong> for risk scoring, with behavioral session features such as typing rhythm and interaction timing to drive adaptive challenge selection.</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
+                <a href="https://github.com/chenbytes/Jack-Fetch-" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="Jack, Fetch! placeholder thumbnail" width="100%"/></a>
+                <a href="https://github.com/chenbytes/Jack-Fetch-" target="_blank" rel="noreferrer"><h2>Jack, Fetch! <span></span></h2></a>
+                <p><strong>Jack, Fetch!</strong> is a full-stack interactive mini-game hub built with <strong>Next.js</strong> and <strong>Express.js</strong>. It brings together five client-facing dog-themed features: an API-driven <strong>Guess the Breed</strong> quiz, a timed <strong>Memory Game</strong>, an Instagram-inspired <strong>Doggo Feed</strong>, a client-side <strong>Dog Puzzle</strong>, and <strong>Spot the Impostor</strong>, an anomaly-detection challenge. By orchestrating third-party Dog APIs, implementing complex state management for state-dependent game loops, and prioritizing an intuitive, highly responsive UI, this project highlights robust full-stack integration, algorithmic problem-solving, and creative product engineering.</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
-                <p>Developed and released a 2D shooting game with C# and Unity. This project is hosted on the Itch.io public marketplace.</p>
+                <a href="https://github.com/chenbytes/seat-occupancy-iot" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="Live Seat Occupancy placeholder thumbnail" width="100%"/></a>
+                <a href="https://github.com/chenbytes/seat-occupancy-iot" target="_blank" rel="noreferrer"><h2>Live Seat Occupancy <span></span></h2></a>
+                <p><strong>Live Seat Occupancy</strong> is a real-time IoT monitoring and analytics dashboard designed to process and visualize live sensor telemetry for spatial resource management. The application features a dynamic, state-driven spatial heatmap that instantaneously reflects physical seat availability, complemented by a live metrics engine calculating instantaneous capacity utilization. Engineered to handle continuous, low-latency data streams, the platform integrates a high-throughput event logging system with tabular data export (CSV) capabilities, alongside state-triggered notification mechanisms that push automated alerts during critical capacity thresholds. This project showcases strong competencies in real-time data ingestion, responsive UI state synchronization, and practical IoT-to-web end-to-end engineering.</p>
             </div>
             <div className="project">
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
-                <p>This is an online educational platform that provides high-quality, data science-focused learning resources in the Japanese language. I created the entire platform from scratch using Ruby on Rails.</p>
+                <a href="https://github.com/chenbytes/Kalahi" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="KALAHI-CIDSS Region XI Subproject Integration Dashboard placeholder thumbnail" width="100%"/></a>
+                <a href="https://github.com/chenbytes/Kalahi" target="_blank" rel="noreferrer"><h2>The KALAHI-CIDSS Region XI Subproject Integration Dashboard <span></span></h2></a>
+                <p><strong>The KALAHI-CIDSS Region XI Subproject Integration Dashboard</strong> is a centralized enterprise monitoring platform engineered for the Department of Social Welfare and Development (DSWD) to optimize community-driven development initiatives. The web application features geospatial visualization via interactive GIS mapping, live analytics panels tracking multi-million budget distributions and beneficiary demographics, and a robust role-based access control (RBAC) system for municipal and regional oversight teams. By consolidating disjointed datasets into a unified web ecosystem, the platform eliminates manual tracking inefficiencies, enhances cross-agency transparency, and secures data-driven accountability across the region.</p>
             </div>
             <div className="project">
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>WeManage: Real Estate Asset Management</h2></a>
-                <p>This mobile application allows realtors in Japan to securely manage their property information and view future income predictions. This app is built with Ruby on Rails and JavaScript.</p>
-            </div>
-            <div className="project">
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><h2>COVID-19 Case Management</h2></a>
-                <p>Built official charts for COVID/vaccination tracking for an educational institution using JavaScript and the Google Sheets API v4. The dashboard served the university's leadership in their decision-making processes.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/chenbytes/multi-reg-analysis" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/chenbytes/multi-reg-analysis" target="_blank" rel="noreferrer"><h2>Multiple Regression Property Analysis</h2></a>
-                <p>Analyzed the real estate market in Japan and predicted property prices by implementing statistical methods such as OLS and multi-regression analysis. This project leveraged Python and various libraries such as Pandas, NumPy, Matplotlib, and Scikit-Learn.</p>
-            </div>
-            <div className="project">
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><h2>Programs of Study</h2></a>
-                <p>Designed and developed a custom component for a CMS-based platform (e.g., 'Brightspot') using Java, Handlebars, and LESS. University students can find their majors of interest through this module.</p>
-            </div>
-            <div className="project">
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><h2>Transfer Evaluation Matrix</h2></a>
-                <p>Created an interactive CSV table generator with Java, Handlebars, and LESS. This project helps transfer students to quickly identify eligible credits.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/chenbytes/submeowrine" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/chenbytes/submeowrine" target="_blank" rel="noreferrer"><h2>Submeowrine</h2></a>
-                <p>Developed and released an Android mobile application using Java and Android Studio that runs a 2D shooting game.</p>
+                <a href="https://github.com/chenbytes/mibs" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="Mass Intention Booking System placeholder thumbnail" width="100%"/></a>
+                <a href="https://github.com/chenbytes/mibs" target="_blank" rel="noreferrer"><h2>The Mass Intention Booking System (MIBS) <span></span></h2></a>
+                <p><strong>The Mass Intention Booking System (MIBS)</strong> is a specialized scheduling and digital payment platform engineered to modernize parish operations by streamlining online ritual offerings. The application features an administrative dashboard providing real-time scheduling statistics, an automated calendar management engine, and tabular tracking for upcoming community intentions. To safeguard transactional and operational data, the platform is anchored by a resilient disaster recovery architecture that implements automated cloud storage backups, daily incremental synchronization, and a stringent Recovery Time Objective (RTO) strategy to guarantee high availability and data integrity.</p>
             </div>
         </div>
     </div>

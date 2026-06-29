@@ -7,6 +7,8 @@ import 'react-vertical-timeline-component/style.min.css';
 import '../assets/styles/Timeline.scss'
 
 function Timeline() {
+  const animationObserverProps = { triggerOnce: false };
+
   return (
     <div id="history">
       <div className="items-container">
@@ -16,50 +18,41 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="2023 – 2024"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
+            intersectionObserverProps={animationObserverProps}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">Freelancer / Independent Contractor</h3>
+            <h4 className="vertical-timeline-element-subtitle">Self-Employed</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              Delivered projects for clients while ensuring requirements and expectations were met.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="Dec 2024 – Mar 2025"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
+            intersectionObserverProps={animationObserverProps}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Social Media Chat Support</h3>
+            <h4 className="vertical-timeline-element-subtitle">Kirinz</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+              Handled customer inquiries, order updates, and support through Instagram direct messages.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            date="Jun 2025 – Dec 2025"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
+            intersectionObserverProps={animationObserverProps}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Web Development Intern</h3>
+            <h4 className="vertical-timeline-element-subtitle">DSWD Region XI</h4>
             <p>
-              Full-stack Development, API Development, User Experience
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2020 - 2020"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
-            <p>
-              Automation, Data Governance, Statistical Analysis
+              Worked on full-stack web development, QA testing, and system enhancement for the Kalahi Region XI Geotagging System.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
